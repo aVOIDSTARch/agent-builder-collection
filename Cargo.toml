@@ -1,0 +1,16 @@
+[package]
+name = "agent-builder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+resolver = "3"
+members = [
+    "agent_instance",
+    "agent_controller",
+    "agent_container",
+    "agent_builder",
+    "agent_design_compiler",
+]
